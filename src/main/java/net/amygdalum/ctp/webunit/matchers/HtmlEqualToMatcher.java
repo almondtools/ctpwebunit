@@ -1,14 +1,14 @@
-package com.almondtools.ctpwebunit.matchers;
+package net.amygdalum.ctp.webunit.matchers;
 
 import static java.util.Arrays.asList;
 
 import java.util.List;
 import java.util.regex.Pattern;
 
-import com.almondtools.comtemplate.engine.Scope;
-import com.almondtools.comtemplate.engine.TemplateImmediateExpression;
-import com.almondtools.comtemplate.engine.expressions.ResolvedMapLiteral;
-import com.almondtools.ctpunit.FunctionMatcher;
+import net.amygdalum.comtemplate.engine.Scope;
+import net.amygdalum.comtemplate.engine.TemplateImmediateExpression;
+import net.amygdalum.comtemplate.engine.expressions.ResolvedMapLiteral;
+import net.amygdalum.ctp.unit.FunctionMatcher;
 
 public class HtmlEqualToMatcher extends FunctionMatcher {
 
