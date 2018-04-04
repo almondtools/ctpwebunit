@@ -1,2 +1,2 @@
 net.amygdalum.ctp.webunit.matchers.HtmlEqualToMatcher
-
+net.amygdalum.ctp.webunit.matchers.XmlEqualToMatcher
